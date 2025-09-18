@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <section id="s1">
+    <h1 id="t1" data-aos="fade-left">WELCOMING OUR BELOVED</h1>
+    <h1 id="t2">KING MAVELI</h1>
+    <div class="flowers">
+  <span>🌸</span>
+  <span>🌼</span>
+  <span>🌺</span>
+  <span>🌷</span>
+</div>
+
+    <img src="WhatsApp_Image_2025-09-18_at_21.57.20_4ae76535-removebg-preview.png" alt="Maveli" id="maveli" data-aos="fade-top">
+    <h3 id="d1">With immense joy and festive spirit, we welcome our beloved <br>King Mahabali back to his land. May his annual visit fill our <br>homes with happiness, prosperity, and the timeless spirit of <br>unity. Happy Onam to all!</h3>
+    <button onclick="document.getElementById('s2').scrollIntoView()" id="b1">About Me</button>
+
+  </section>
+
+<section id="s2" data-aos="fade-up">
+  <h1>About Me</h1>
+  <p>
+    Former King of Kerala, current ruler of Sutala. Known for building a startup-like utopia with zero poverty, zero inequality, and 100% citizen 
+    satisfaction. 
+  </p>
+  <p>
+    Famous for keeping promises (even when gods tested me), turning “hell” into a better place than heaven, and still getting invited back every year for 
+    Onam. 
+  </p>
+  <div class="card-container">
+    <div class="card skill-card" data-aos="zoom-in">
+      <h2><i class="fas fa-crown"></i> Skills</h2>
+      <p> Fair Ruler<br> Feast Organizer<br> Vallamkali Hype-Man</p>
+    </div>
+    <div class="card legacy-card" data-aos="zoom-in" data-aos-delay="200">
+      <h2><i class="fas fa-star"></i> Legacy</h2>
+      <p>Equality, prosperity, and the happiest citizens in history. Basically, peak "good vibes only" era.</p>
+    </div>
+  </div>
+
+  <div class="contact-card" data-aos="fade-up" data-aos-delay="400">
+    <h2><i class="fas fa-envelope"></i> Contact</h2>
+    <p><i class="fas fa-map-marker-alt"></i> Heaven’s VIP Suite</p>
+    <p><i class="fas fa-paper-plane"></i> maveli@onam.com</p>
+    <p><i class="fas fa-hashtag"></i> #Onam2k25</p>
+  </div>
+  
+</section>
+<div class="resume-container">
+  <button id="b2" onclick="window.location.href='Resume.pdf'" download>Resume</button>
+</div>
+
+<section id="experience">
+  <h2> My Experience</h2>
+  <div class="experience-container">
+
+    <div class="exp-card">
+      <h3>Ruler of Kerala</h3>
+  <p>Built and managed a golden-age kingdom where equality, prosperity, and 
+  happiness thrived. Eliminated poverty, corruption, and class divides, 
+  delivering 100% citizen satisfaction. Known for generosity, integrity, and 
+  visionary leadership that even the devas envied. Still remembered as the 
+  benchmark of good governance, celebrated annually as Onam.</p>
+  <span class="exp-date">~ Ancient Golden Age</span>
+    </div>
+
+    <div class="exp-card">
+      <h3> King of Sutala </h3>
+      <p>Transitioned from ruling Earth’s golden age to managing operations in Sutala 
+  (a.k.a. the underworld). Established a thriving kingdom blessed personally by 
+  Lord Vishnu, with prosperity, peace, and zero HR complaints. 
+  Successfully proved that leadership, integrity, and empathy can turn even “hell” 
+  into a better place than heaven.</p>
+      <span class="exp-date">~ Eternal Reign, Post-Vamana Era</span>
+    </div>
+
+    <div class="exp-card">
+      <h3>Champion of Generosity</h3>
+  <p>Renowned for keeping promises and unparalleled philanthropy. Willingly 
+  sacrificed personal throne and status to uphold dharma, inspiring future 
+  generations. Recognized for turning selflessness into a leadership principle.</p>
+  <span class="exp-date">~ Throughout Reign</span>
+    </div>
+
+  </div>
+</section>
+
+  <section id="portfolio" data-aos="fade-up">
+    <h1>Portfolio Showcase </h1>
+    <div class="portfolio-container">
+      <div class="portfolio-card">
+        <h2> Mega Onam Sadya</h2>
+        <p>Organized 64 dishes in one sitting. Scaled without Zomato or Swiggy.</p>
+        <video autoplay muted loop>
+          <source src="Onam Sadhya Kerala Sadhya Happy Onam 2022 - Helens Kitchen (1080p, h264, youtube) (2) (1).mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+      <div class="portfolio-card">
+        <h2> Vallamkali Boat Race</h2>
+        <p>Cheerleader + hype-man. Audience engagement = 100% 🚤</p>
+        <video autoplay muted loop>
+          <source src="Nehru Trophy Boat Race - An emotion that runs through generations Kerala Tourism - Kerala Tourism (1080p, h264, youtube).mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+      <div class="portfolio-card">
+        <h2> Golden Era </h2>
+        <p>Created a kingdom with no poverty. Invented Happiness Index.</p>
+        <video autoplay muted loop>
+        <source src="Mavelis_Golden_Era_Video.mp4" type="video/mp4">
+       </video>
+
+      </div>
+    </div>
+  </section>
+ 
+<button id="openFormBtn">Make a Wish</button>
+
+<div id="wishModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form action="https://formspree.io/f/mwpndgzz" method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="kingdom">Kingdom</label>
+      <input type="text" name="kingdom">
+
+      <label for="wish">Your Wish / Request</label>
+      <textarea name="wish" id="wish" required></textarea>
+
+      <button type="submit" id="b3">Send Request</button>
+    </form>
+  </div>
+</div>
+
+
+  <footer>
+    <p>© 2025 King Mahabali | Made with ❤ and payasam</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
